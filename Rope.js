@@ -11,9 +11,13 @@ class Rope{
      World.add(world, this.rope);
     }  
     display() {
-     var posA = this.rope.bodyA.position
-     var posB = this.rope.bodyB.position
-     strokeWeight(3);
-     line(posA.x, posA.y, posB.x, posB.y);
+      var pointA = this.rope.bodyA.position;
+      var pointB = this.rope.bodyB.position;
+      strokeWeight(2);
+      var posAX = pointA.x;
+      var posAY = pointA.y;
+      var posBX = pointB.x+this.offsetX;
+      var posBY = pointB.y+this.offsetY;
+      line(posAX, posAY, posBX, posBY);
     }
   }
