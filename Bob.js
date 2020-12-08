@@ -17,7 +17,7 @@ class Bob{
         translate(pos.x, pos.y);
         rotate(angle);
         ellipseMode(RADIUS);
-        fill("black");
+        fill("gold");
         ellipse(0, 0, this.radius);
         pop();
         }
