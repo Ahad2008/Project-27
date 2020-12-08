@@ -13,7 +13,7 @@ class Rope{
     display() {
       var pointA = this.rope.bodyA.position;
       var pointB = this.rope.bodyB.position;
-      strokeWeight(2);
+      strokeWeight(4);
       var posAX = pointA.x;
       var posAY = pointA.y;
       var posBX = pointB.x+this.offsetX;

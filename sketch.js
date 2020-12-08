@@ -42,7 +42,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(150);
+  background("yellow");
   bob1.display();
   bob2.display();
   bob3.display();
